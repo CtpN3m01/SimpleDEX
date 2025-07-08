@@ -1,15 +1,15 @@
-# SimpleDEX – Decentralized Token Exchange on Scroll Sepolia
+# SimpleDEX – Decentralized Token Exchange on Sepolia
 
-**SimpleDEX** is a minimal decentralized exchange (DEX) built on the Scroll Sepolia testnet. It allows users to swap between two ERC-20 tokens — TokenA and TokenB — using an automated market maker (AMM) model based on the constant product formula:  
-> (x + Δx) * (y - Δy) = x * y
+**SimpleDEX** is a minimal decentralized exchange (DEX) built on the Sepolia testnet. It allows users to swap between two ERC-20 tokens — TokenA and TokenB — using an automated market maker (AMM) model based on the constant product formula:  
+> **(x + Δx) * (y - Δy) = x * y**
 
 ## 📦 Deployed Contracts
 
 | Contract     | Address                                                                 |
 |--------------|-------------------------------------------------------------------------|
-| TokenA       | [`0x729448733C94495Da1C2e350a6621ff9FC3B1672`](https://sepolia.scrollscan.com/address/0x729448733C94495Da1C2e350a6621ff9FC3B1672) |
-| TokenB       | [`0xF890dcAD1a702f74eD80F138Ddd12fac4cE51fEE`](https://sepolia.scrollscan.com/address/0xF890dcAD1a702f74eD80F138Ddd12fac4cE51fEE) |
-| SimpleDEX    | [`0xBc469da34FE5B238D55e3c9BA3a2d0fF17a59Ac6`](https://sepolia.scrollscan.com/address/0xBc469da34FE5B238D55e3c9BA3a2d0fF17a59Ac6) |
+| TokenA       | [`0x729448733C94495Da1C2e350a6621ff9FC3B1672`](https://sepolia.etherscan.io/address/0x729448733C94495Da1C2e350a6621ff9FC3B1672) |
+| TokenB       | [`0xF890dcAD1a702f74eD80F138Ddd12fac4cE51fEE`](https://sepolia.etherscan.io/address/0xF890dcAD1a702f74eD80F138Ddd12fac4cE51fEE) |
+| SimpleDEX    | [`0xBc469da34FE5B238D55e3c9BA3a2d0fF17a59Ac6`](https://sepolia.etherscan.io/address/0xBc469da34FE5B238D55e3c9BA3a2d0fF17a59Ac6) |
 
 ## ⚙️ Features
 
@@ -38,10 +38,10 @@
 
 ## 🧪 How to Test on Remix
 
-1. Connect to the **Scroll Sepolia** testnet using MetaMask.
+1. Connect to the **Sepolia** testnet using MetaMask.
 2. Deploy or import the contracts using the provided addresses.
 3. Interact with the contracts using Remix’s interface:
-   - Use `approve()` on TokenA/TokenB before calling swap or addLiquidity.
+   - Use `approve()` on TokenA/TokenB before calling `swap` or `addLiquidity`.
    - Use `swapAforB()` or `swapBforA()` to perform token swaps.
    - Use `getPrice()` to check the exchange rate.
 
@@ -58,7 +58,7 @@ This project was built to understand and apply:
 - ERC-20 token standards
 - AMM logic (constant product formula)
 - Solidity contract interactions
-- Manual deployment and testing with Remix on Scroll Sepolia
+- Manual deployment and testing with Remix on the Sepolia Ethereum testnet
 
 ## 📜 License
 
