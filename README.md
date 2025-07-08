@@ -1,7 +1,7 @@
 # SimpleDEX – Decentralized Token Exchange on Scroll Sepolia
 
 **SimpleDEX** is a minimal decentralized exchange (DEX) built on the Scroll Sepolia testnet. It allows users to swap between two ERC-20 tokens — TokenA and TokenB — using an automated market maker (AMM) model based on the constant product formula:  
-> \[(x + Δx)(y - Δy) = x \cdot y\]
+> (x + Δx) * (y - Δy) = x * y
 
 ## 📦 Deployed Contracts
 
